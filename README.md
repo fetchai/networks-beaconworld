@@ -60,7 +60,7 @@ Press the `Get Funds` button in the [block explorer](https://explore-beaconworld
     ```bash
     sed -i  's/allow_duplicate_ip = false/allow_duplicate_ip = true/' ~/.fetchd/config/config.toml
     ```
-- Start wasmd by connecting to the seed node:
+- Start fetchd by connecting to the seed node:
   ```bash
-  wasmd start --p2p.seeds=8aeb090b6a4aa3c53e11453b3354bf020b1be990@connect-beaconworld.fetch.ai:36656
+  fetchd start --p2p.seeds=8aeb090b6a4aa3c53e11453b3354bf020b1be990@connect-beaconworld.fetch.ai:36656
   ```
