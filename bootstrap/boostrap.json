@@ -1,0 +1,4 @@
+{
+  "chainid": "beaconworld-0",
+  "args": "--p2p.seeds=8aeb090b6a4aa3c53e11453b3354bf020b1be990@connect-beaconworld.fetch.ai:36656"
+}
