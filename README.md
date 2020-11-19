@@ -16,7 +16,12 @@ The block explorer can be accessed by clicking [here](https://explore-beaconworl
 ## Installing fetchd
 Fetchd requires mcl to be installed. This can be done by executing the following commands
 ```bash
-sudo apt-get install libgmp-dev
+# Run the following command if using Ubuntu
+sudo apt-get install libgmp-dev swig libboost-all-dev
+# Run the following command if using OS X
+brew instasll swig boost gmp
+```
+```bash
 cd ~
 wget https://github.com/herumi/mcl/archive/v1.05.tar.gz
 tar xvf v1.05.tar.gz
