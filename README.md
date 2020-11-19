@@ -14,6 +14,16 @@ This repo contains information on how to connect to the fetch.ai Beaconworld tes
 The block explorer can be accessed by clicking [here](https://explore-beaconworld.fetch.ai/)
 
 ## Installing fetchd
+Fetchd requires mcl to be installed. This can be done by executing the following commands
+```bash
+sudo apt-get install libgmp-dev
+cd ~
+wget https://github.com/herumi/mcl/archive/v1.05.tar.gz
+tar xvf v1.05.tar.gz
+cd mcl-1.05
+sudo make install
+sudo ldconfig
+```
 
 To install the fetchd and fetchcli executables, execute the following commands:
 
