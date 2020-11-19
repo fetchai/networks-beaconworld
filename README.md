@@ -19,7 +19,7 @@ Fetchd requires mcl to be installed. This can be done by executing the following
 # Run the following command if using Ubuntu
 sudo apt-get install libgmp-dev swig libboost-all-dev
 # Run the following command if using OS X
-brew instasll swig boost gmp
+brew install swig boost gmp
 ```
 ```bash
 cd ~
