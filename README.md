@@ -63,5 +63,5 @@ Press the `Get Funds` button in the [block explorer](https://explore-beaconworld
 
 - Start fetchd by connecting to the seed node:
   ```bash
-  fetchd start --p2p.seeds=abf9a033abe46df6e643ea308781159832a642ef@connect-beaconworld.fetch.ai:36656
+  fetchd start --p2p.seeds=e5102b892cf49d20b5e58435abfcf1d9f923e0f3@connect-beaconworld.fetch.ai:36656
   ```
