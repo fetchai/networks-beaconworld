@@ -1,4 +1,7 @@
 {
   "chainid": "beaconworld-1",
+  "rpc": "https://rpc-beaconworld.fetch.ai:443",
+  "rest": "https://rest-beaconworld.fetch.ai:443",
+  "faucet": "https://faucet-beaconworld.fetch.ai",
   "args": "--p2p.seeds=e5102b892cf49d20b5e58435abfcf1d9f923e0f3@connect-beaconworld.fetch.ai:36656"
 }
